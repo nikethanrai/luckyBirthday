@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+:root{
+  --secondary-color: #eabdff;
+
+}
+.App{
+  margin: auto;
+  text-align: center;
+  font-family: 'Caveat', cursive;}
+body{
+  background: rgb(129,173,255);
+background: linear-gradient(18deg, rgba(129,173,255,1) 33%, rgba(235,181,255,1) 100%);
+min-height: 100vh;
+background-attachment: fixed;
+
+}
+
+.page-heading,.section {
+  color:rgb(70, 27, 119);
+  background-color: white;
+ 
+  max-width: 25rem;
+  margin:auto;
+  padding:  1.5rem;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 10px 5px var(--secondary-color);
+  border-radius: .5rem;
+  margin-top: 12rem;
+  margin-bottom: 15rem;
+  
+
+  
+}
+
+
+a{
+  text-decoration: none;
+  
+}
+a:hover{
+  color: rgb(168, 121, 255);
+}
+#alertBox{
+  width: 21rem;
+  padding:.5rem 1rem;
+  margin: auto;
+  background-color: rgb(250, 210, 210);
+
+
+  justify-content: center;
+  align-items: center;
+  color: red;
+  
+  font-size: 18px;
+  transition: .3s;
+  
+}
+#alertBox:hover{
+  background-color: rgb(253, 55, 55);
+  color:rgb(255, 255, 255)
+  ;
+}
+.input{
+  padding: 2rem;
+  
+}
+#birthday-label,#lucky-label{
+  font-size: 40px;
+  font-weight: bolder;
+}
+#birthday,#lucky-input{
+  padding: .5rem 1rem;
+  margin: 1rem;
+  border-radius: .7rem;
+  border-color: rgb(192, 82, 187);
+  border-style: solid;
+  
+  font-size: 17px;
+  width: 12rem;
+}
+#check-btn{
+  border-style: solid;
+  background-color: rgb(95, 127, 224);
+  color: rgb(255, 255, 255);
+  padding: .5rem 2rem ;
+  border-color: rgb(135, 183, 245);
+  border-radius: 10rem;
+  box-shadow:  0px 0px 10px 5px #d0e2ff;
+  margin-top: 2rem;
+  font-size: 15px;
+  cursor: pointer;
+  transition: .3s;
+  
+  
+  
+
+
+
+}
+#check-btn:hover{
+  color: rgb(0, 0, 126);
+  background-color: rgb(206, 206, 255);
+  
+  
+
+}
