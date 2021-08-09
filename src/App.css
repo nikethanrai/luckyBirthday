@@ -33,9 +33,13 @@ background-attachment: fixed;
 }
 
 
-a{
+Link{
   text-decoration: none;
   
+  
+}
+#letsStart{
+  cursor: pointer;
 }
 a:hover{
   color: rgb(168, 121, 255);
@@ -77,6 +81,11 @@ a:hover{
   
   font-size: 17px;
   width: 12rem;
+  transition: .3s;
+
+}
+#birthday:hover,#lucky-input:hover{
+  box-shadow: 0px 0px 10px 5px rgb(226, 209, 255);
 }
 #check-btn{
   border-style: solid;
@@ -103,4 +112,10 @@ a:hover{
   
   
 
+}
+.checkInput{
+  color:red;
+  font-size: 15px;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif
 }
